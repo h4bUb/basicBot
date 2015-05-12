@@ -137,7 +137,7 @@
                     for (var prop in json_sett) {
                         basicBot.settings[prop] = json_sett[prop];
                     }
-                }
+                }we
             });
         }
 
@@ -3284,7 +3284,7 @@
             },
 
             welcomeCommand: {
-                command: 'welcome',
+                command: 'sup',
                 rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
